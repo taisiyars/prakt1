@@ -10,7 +10,7 @@ namespace Lib3
     /// <param name="x">генерируемое число</param>
     /// <param name="sqrx">корень из числа</param>
     /// <param name="step2">степень числа</param>
-        public static void CalcFunction(out int x, out double sqrx, out int step2)
+        public static void CalcFunc(out int x, out double sqrx, out int step2)
         {
             int proverka = 0;
             sqrx = 0;

@@ -33,7 +33,7 @@ namespace Практ_1
             int col;
             int chisla;
 
-            CalcNumbers.CalcFunction(out chisla, out rez, out col);
+            CalcNumbers.CalcFunc(out chisla, out rez, out col);
             tbGenerate.Text = Convert.ToString(chisla);
             tbSqrt.Text = Convert.ToString(rez);
             tbSquare.Text = Convert.ToString(col);
